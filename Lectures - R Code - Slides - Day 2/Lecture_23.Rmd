@@ -1,0 +1,88 @@
+---
+title: "R Notebook"
+output:
+  html_document: default
+---
+
+```{r}
+1+1
+```
+**bold** and __bold__
+
+*italics* and _italics_
+
+~~scratched text~~
+
+Superscript^2^
+
+[link](www.google.com)
+
+> This is a quote
+
+>[Author]
+
+
+--
+
+---
+
+...
+
+\*
+
+\\
+
+\_
+
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+
+Images
+![Caption](Rlogo.png)
+
+
+
+Lists
+
+* list item 1
+
+* list item 2
+
+    + list sub item 1
+    
+    + list sub item 2
+    
+    
+
+
+6 minus 4 equals `r 6-4`.
+
+R chunk
+```{r}
+n <- 10
+seq(10)
+```
+
+
+Plot
+```{r}
+plot(cars)
+```
+
+Data
+```{r}
+cars
+```
+
+Inline latex: $A=\pi*r^{2}$
+
+Block equation: $$\sqrt{100}=10$$
